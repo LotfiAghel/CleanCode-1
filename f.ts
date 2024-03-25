@@ -1,4 +1,4 @@
-const t=(a:any)=> any{
+const t=(a:any)=>{
 
     switch(a.type){
         case "log":
@@ -18,5 +18,5 @@ const t=(a:any)=> any{
             axios2.post("server-api2/log",a.logdata2)
             break;
     }
-
+    
 }
