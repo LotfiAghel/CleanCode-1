@@ -1,4 +1,4 @@
-const t=(a:any){
+const t=(a:any)=> any{
 
     switch(a.type){
         case "log":
