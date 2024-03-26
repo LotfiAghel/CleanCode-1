@@ -17,6 +17,13 @@ const t=(a:any)=>{
             axios.post("server-api/log",a.logdata)
             axios2.post("server-api2/log",a.logdata2)
             break;
+        /*
+        .
+        .
+        در این قسمت کیس های دیگری هم نوشته شده
+        .
+        .
+        */
     }
     
 }
